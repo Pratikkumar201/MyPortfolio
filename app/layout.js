@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Pratik | Portfolio",
   description: "Application Developer Portfolio",
+  icons: {
+    icon: '/favicon.ico', // ✅ points to /public/favicon.ico
+  },
 };
 
 export default function RootLayout({ children }) {
