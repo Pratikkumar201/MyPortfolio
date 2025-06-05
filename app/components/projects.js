@@ -53,6 +53,7 @@
 
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Projects() {
   const projects = [
@@ -111,10 +112,12 @@ export default function Projects() {
         <div className="grid md:grid-cols-3 gap-6">
           {projects.map((project, index) => (
             <Link href={`/projects/${project.slug}`} key={index}>
-              <div className="bg-[#2a2a2a] p-4 rounded-xl hover:shadow-md hover:shadow-cyan-400 transition-all duration-300 cursor-pointer">
+              <div className="bg-[#2a2a2a] p-4 rounded-xl hover:shadow-md hover:shadow-cyan-400 transition-all duration-300 cursor-pointer ">
+              {/* use this in just above div classname:- relative w-full h-48, if i don't want to specify width and height, then replace with only fill */}
                 <img
                   src={project.image}
                   alt={project.title}
+                  // width={100} height={100}
                   className="w-full h-48 object-cover rounded-lg mb-4"
                 />
                 <h3 className="text-xl font-semibold text-cyan-300 mb-2">{project.title}</h3>

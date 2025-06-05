@@ -21,28 +21,28 @@ const projects = [
     title: "Credit Card Fraud Detection (Machine Learning)",
     image: "https://via.placeholder.com/400x300",
     description: "Built a fraud detection model using logistic regression on anonymized credit card data.",
-    githubLink: ""
+    githubLink: "https://github.com/Pratikkumar201/credit-card-fraud"
   },
   {
     slug: "human-activity-recognition",
     title: "Human Activity Recognition (Deep Learning)",
     image: "/project-activity.jpg",
     description: "Implemented deep learning models to classify human activities from sensor datasets.",
-    githubLink: ""
+    githubLink: "https://github.com/Pratikkumar201/human-activity-recognition"
   },
   {
     slug: "hr-analytics-dashboard",
     title: "HR Analytics Dashboard (Power BI)",
     image: "/project-hr-dashboard.jpg",
     description: "Designed Power BI dashboards using HR data and DAX for strategic insights.",
-    githubLink: ""
+    githubLink: "https://github.com/Pratikkumar201/hr-analytics"
   },
   {
     slug: "mcdonald-market-analysis",
     title: "McDonald's Market Basket Analysis",
     image: "/project-mcd.jpg",
     description: "Performed association rule mining (Apriori) on transaction data to find purchasing patterns.",
-    githubLink: ""
+    githubLink: "https://github.com/Pratikkumar201/mcdonald-market-analysis"
   },
 ];
 

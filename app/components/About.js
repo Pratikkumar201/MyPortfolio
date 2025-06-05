@@ -11,7 +11,7 @@ export default function About() {
         <div>
           <h2 className="text-4xl font-bold mb-2">About <span className="text-cyan-400">Me</span></h2>
           <p className="text-lg text-gray-300 leading-relaxed mb-4">
-            I'm a Application Developer passionate about building modern web apps. 
+            I&apos;m a Application Developer passionate about building modern web apps. 
             <p className="text-lg text-gray-300 leading-relaxed mb-4">
             I have completed Masters of Computer Applications (MCA) from Banaras Hindu University (BHU), Varanasi, Uttar Pradesh, India in 2024.
             </p>

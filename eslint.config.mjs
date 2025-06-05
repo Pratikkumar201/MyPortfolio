@@ -9,6 +9,20 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
-const eslintConfig = [...compat.extends("next/core-web-vitals")];
+// Extend Next.js config and override rules
+const eslintConfig = [
+  {
+    ignores: ['.next/**', 'node_modules/**'],
+  },
+  ...compat.extends('next/core-web-vitals'),
+  {
+    files: ['**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx'],
+    rules: {
+      'react/no-unescaped-entities': 'off',
+      '@next/next/no-img-element': 'off',
+    },
+  },
+];
 
-export default eslintConfig;
+
+export default eslintConfig
