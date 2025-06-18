@@ -1,17 +1,3 @@
-// export default function Contact() {
-//   return (
-    // <section className="py-16 px-8 bg-blue-50">
-    //   <h2 className="text-4xl font-bold text-center mb-10">Contact Me</h2>
-    //   <form className="max-w-xl mx-auto bg-white p-8 rounded-xl shadow-md space-y-6">
-    //     <input className="w-full border p-3 rounded" type="text" placeholder="Your Name" required />
-    //     <input className="w-full border p-3 rounded" type="email" placeholder="Your Email" required />
-    //     <textarea className="w-full border p-3 rounded" rows="5" placeholder="Your Message" required></textarea>
-    //     <button className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition">Send</button>
-    //   </form>
-    // </section>
-//   );
-// }
-
 "use client";
 import { useState } from 'react';
 

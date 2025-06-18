@@ -1,4 +1,5 @@
-import projects from '@/app/data/projects'; // ✅ correct this path if needed
+// ✅ correct this path if needed
+import projects from '@/data/projects';
 import Image from 'next/image';
 import Link from 'next/link';
 

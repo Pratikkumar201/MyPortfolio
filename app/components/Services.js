@@ -1,22 +1,5 @@
-// export default function Services() {
-//   return (
-//     <section id="services" className="py-16 bg-gray-900 text-white">
-      // <div className="text-center">
-      //   <h2 className="text-4xl font-bold mb-4">My Skills</h2>
-      //   <p className="max-w-xl mx-auto">Here are some technologies I work with:</p>
-      //   <div className="flex flex-wrap justify-center mt-8 gap-4">
-      //     {["HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "Next.js", "Spring Boot"].map(skill => (
-      //       <span key={skill} className="bg-gray-800 px-4 py-2 rounded-full">
-      //         {skill}
-      //       </span>
-      //     ))}
-      //   </div>
-      // </div>
-//     </section>
-//   );
-// }
 
-// components/Services.js
+// import VisitorCounter from "./VisitorCounter";
 export default function Services() {
   return (
     <section id="services" className="py-20 bg-[#1f1f1f] text-white">
@@ -39,6 +22,7 @@ export default function Services() {
             <button className="bg-cyan-500 text-black px-4 py-2 rounded-md">Read More</button>
           </div>
         </div>
+        {/* <VisitorCounter/> */}
       </div>
     </section>
   );

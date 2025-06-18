@@ -60,27 +60,34 @@ export default function Projects() {
     {
       slug: "politicians-speech-analyzer",
       title: "Politicians Speech Analyzer Web App",
-      image: "https://via.placeholder.com/400x300",
+      image: "/politics-speech-analyzer.png",
       description:
         "A Hindi NLP app that clusters and analyzes political speeches using unsupervised learning.",
       liveLink: "https://example.com/speech-analyzer",
       githubLink: "https://github.com/Pratikkumar201/speech-analyzer",
     },
-    {
-      slug: "bhu-news-website",
-      title: "BHU News Website",
-      image: "https://via.placeholder.com/400x300",
-      description:
-        "A media-focused content management site for BHU news and public announcements.",
-      liveLink: "https://example.com/bhu-news",
-      githubLink: "https://github.com/Pratikkumar201/bhu-news",
-    },
+    // {
+    //   slug: "bhu-news-website",
+    //   title: "BHU News Website",
+    //   image: "/BHU-news_site.png",
+    //   description:
+    //     "A media-focused content management site for BHU news and public announcements.",
+    //   liveLink: "https://example.com/bhu-news",
+    //   githubLink: "https://github.com/Pratikkumar201/bhu-news",
+    // },
     {
       slug: "credit-card-fraud-detection",
       title: "Credit Card Fraud Detection",
       image: "https://via.placeholder.com/400x300",
       description: "Built a fraud detection model using logistic regression on anonymized credit card data.",
       githubLink: ""
+    },
+    {
+      slug: "qr-code-generator",
+      title: "QR Code Generator",
+      image: "/qr-code.png",
+      description: "Built QR Code Generator WebApp for PR Office, BHU to generate QR code and attach in Press Release or social media posts.",
+      githubLink:""
     },
     {
       slug: "human-activity-recognition",
@@ -92,7 +99,7 @@ export default function Projects() {
     {
       slug: "hr-analytics-dashboard",
       title: "HR Analytics Dashboard (Power BI)",
-      image: "/project-hr-dashboard.jpg",
+      image: "/hr-dashboard.jpeg",
       description: "Designed Power BI dashboards using HR data and DAX for strategic insights.",
       githubLink: ""
     },
