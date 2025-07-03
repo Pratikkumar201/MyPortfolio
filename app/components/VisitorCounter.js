@@ -1,7 +1,9 @@
 import React from 'react';
 
 export default async function VisitorCounter() {
-  const res = await fetch(`http://localhost:3000/api/visitor`, {
+  // const res = await fetch(`http://localhost:3000/api/visitor`,
+
+   const res = await fetch('process.env.REDIS_URL',{
     method: 'POST',
     cache: 'no-store',
   });
@@ -15,3 +17,5 @@ export default async function VisitorCounter() {
     </div>
   );
 }
+
+// process.env.REDIS_URL
