@@ -18,36 +18,13 @@ export const metadata = {
   icons: {
     icon: '/favicon.ico',
   },
-  openGraph: {
-    title: "Pratik | Portfolio",
-    description: "Showcasing projects in React, ML, Power BI & more.",
-    url: "https://your-portfolio-url.com",
-    siteName: "Pratik Portfolio",
-    images: [
-      {
-        url: "https://your-portfolio-url.com/pratik image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Pratik Portfolio Preview",
-      },
-    ],
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@yourTwitterHandle",
-    title: "Pratik | Portfolio",
-    description: "Developer & ML Engineer - Portfolio",
-    images: ["https://your-portfolio-url.com/pratik image.jpg"],
-  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#0F172A] text-white`}
-      >
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#0F172A] text-white`}>
         <Navbar />
         {children}
       </body>

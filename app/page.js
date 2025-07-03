@@ -26,7 +26,7 @@ export default function Home() {
         <meta property='og:url' content='https://my-portfolio-green-mu-65.vercel.app/'/>
         <meta property='og:site_name' content='Pratik Portfolio'/>
         <meta property='og:image' content='https://drive.google.com/file/d/1rJYv30SFw_skrsuu2OBleYnKno69YJUq/view?usp=sharing'/>
-        <meta property='og:type' content='website'/>       
+        <meta property='og:type' content='website'/>
       </Head>
       <main>
       <Hero />
